@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
 import './App.css';
+import Main from './components/MainComponent';
+import WebFont from 'webfontloader';
+import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ['Fredericka the Great', 'Dosis', 'Playfair Display', 'Montserrat']
+      }
+    });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1 style={{ fontFamily: 'Fredericka the Great', fontSize: '2rem', color: 'white'}}>This is app</h1> */}
+      <BrowserRouter>
+        <div className="App">
+          <Main />
+        </div>
+      </BrowserRouter>
     </div>
   );
 }

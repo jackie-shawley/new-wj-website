@@ -1,38 +1,330 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-link {
+  color: #A3956D;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #4D4D4D;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+  font-family: 'Fredericka the Great';
+  color:#A3956D;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Fredericka the Great';
+  color:#A3956D;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Avenir Light', sans-serif;
+  color: #4D4D4D;
+}
+
+.home-about-text {
+  font-family: 'Avenir Light', sans-serif;
+  color:#ffffffb9;
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+.photo-credits {
+  font-family: 'Avenir Light', sans-serif;
+  color: #7d7c7c;
+  font-size: 1rem;
+}
+
+.photo-credits:a {
+  font-family: 'Avenir Light', sans-serif;
+  color: #7d7c7c;
+  font-size: 1rem;
+}
+
+.email {
+  font-family: 'Avenir Light', sans-serif;
+  color:#A3956D;
+}
+
+/* Navigation */
+  .navbar {
+    background-color: black;
+    color: #A3956D
+  }
+  .nav-link {
+    font-family: 'Dosis';
+    font-variant: small-caps;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .nav-link:active {
+    color: #A3956D;
+  }
+
+  .nav-link:hover {
+    color: #fee7aa;
+  }
+
+  .nav {
+    justify-content: right;
+  }
+
+
+/* HomePage */
+  .home-page {
+    background-color: black;
+  }
+
+  .shows p {
+    font-family: 'Avenir Light', sans-serif;
+    color: #786d4f;
+    font-size: 1.5rem;
+  }
+
+  .shows h2 {
+    font-family: 'Avenir Light', sans-serif;
+    color:#A3956D;
+    font-size: 2.5rem;    
+  }
+
+  .shows h4 {
+    font-family: 'Avenir Light', sans-serif;
+    color:#A3956D;
+    font-size: 1.5rem;    
+  }
+
+  .shows h5 {
+    font-family: 'Avenir Light', sans-serif;
+    color:#786d4f;
+    font-size: 1.5rem;    
+  }
+
+  .shows h6 {
+    font-family: 'Avenir Light', sans-serif;
+    color: #4D4D4D;
+    font-size: 1.25rem;
+  }
+
+  .shows hr {
+    color:#A3956D;
+    width: 85%;
+    margin: auto;
+  }
+
+  .btn-shows {
+    color:#A3956D;
+    outline-color: #A3956D;
+    background-color: #4D4D4D;
+  }
+
+  .btn-shows:hover { 
+    background-color: #786d4f;
+  }
+
+  .vl {
+    border-right: 6px solid white;
+    height: 20px;
+  }
+
+/* Carousel */
+  .carousel-img {
+    height: 500px;
+    width: 900px;
+    object-fit: cover;
+  }
+
+  .carousel {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .carousel-img {
+      height: 250px;
+      width: 450px;
+      object-fit: cover;
+    }
+  }
+
+/* Soundcloud player */
+
+  .hp-soundcloud-player {
+    align-items: left;
+  }
+
+  .hp-player {
+    margin-top: 40;
+    margin-left: 40;
+  }
+
+  @media screen and (max-width: 576px) {
+    .hp-soundcloud-player {
+      align-items: center;
+      margin:auto;
+    }
+
+    .hp-player {
+      margin-left: auto;
+    }
+  }
+  
+
+  /* Footer */
+  .footer-text {
+    margin-top: 20;
+    align-items: 'right';
+    font-family: 'Playfair Display';
+    color: '#A3956D';
+    font-size: 1rem;
+  }
+
+/* Show Page */
+.show-page {
+  background-color: black;
+}
+
+.gazebo-photo {
+  height: 70%;
+  width: 70%;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Music Page */
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+
+.centered h1 {
+  font-family: 'Fredericka the Great';
+  color:black;
+  font-size: 7vw;
+}
+
+.album-card {
+  width: 20rem;
+  margin-top: 60px;
+}
+
+.linktree-card {
+  width: 20rem;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  border: #786d4f;
+}
+
+.linktree-card-text {
+  font-family: 'Avenir', sans-serif;
+  font-size: 2rem;
+  color: #fee7aa;
+}
+
+.button {
+  position: relative;
+  font-family: 'Avenir Light', sans-serif;
+  font-size: medium;
+  background-color: #A3956D !important;
+  border-color: #7d7c7c !important;
+}
+
+.button-logo {
+  position: absolute;
+  left: 10px;
+  width: 50px;
+  height: 40px;
+  margin-top: -5px;
+}
+
+.ticket-link {
+  color: rgb(163, 149, 109);
+  text-decoration: underline;
+}
+.ticket-link:hover {
+  color: #4D4D4D;
+  text-decoration: underline;
+}
+
+.home-cover-image {
+  height: 275px;
+  border: solid 4px green;
+  border-radius: 15px;
+  justify-content: flex-start;
+    
+}
+
+.home-player {
+  width: 100
+}
+
+/* .music-page-hr {
+  background: repeating-linear-gradient(
+    45deg,
+    white,
+    white 10px,
+    red 10px,
+    red 20px  
+  );
+  width: 75%; 
+} */
+
+
+/* Media Queries */
+@media screen and (min-width: 300px) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-brand {
+    justify-content: center;
+  }
+
+  .link {
+    padding-right: 0;
+  }
+  .home-cover-image {
+    height: 255px;
+    margin-left: auto;
+    margin-bottom: 15px;
+  }
+
+  .home-player {
+    width: 50%;
+    margin-top: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (min-width: 767px) {
+  .hide-hr {
+    display: none;
   }
 }
+
+@media screen and (min-width: 991px) {
+  .nav {
+    justify-content: right;
+    margin-right: 50;
+
+  }
+}
+
+
+
+
+
