@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Col, Container, Row, Button } from 'react-bootstrap';
-import JackieMusicPage from './JackieMusicComponent';
 
 
 export default function MusicPage(props) {
