@@ -91,7 +91,7 @@ return(
 			</Row> */}
             {/* <hr />
             <br /> */}
-            <Row className="justify-content-center" style={{ marginTop: 20 }}>
+            {/* <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
 					<h4>14 July</h4>
                     <h5>6:00pm - 7:00pm</h5>
@@ -108,15 +108,16 @@ return(
 				</Col>
 			</Row>
             <hr />
-            <br />
+            <br /> */}
             <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>24 July</h4>
+					<h4>18 December</h4>
                     <h5>7:00pm - 10:00pm</h5>
                     <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
 				</Col>
 				<Col xs={12} md={3}>
 					<h4>The Fifth Local Eatery And Alehouse</h4>
+                    <h4 style={{ fontFamily: "cursive", fontSize: '1.5rem', color: 'green' }}>Ugly Holiday Sweater Party!</h4>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>
                 <Col xs={12} md={3}>

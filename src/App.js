@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import Main from './components/MainComponent';
+import Main from './components 2/MainComponent';
 import WebFont from 'webfontloader';
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter } from 'react-router-dom';
