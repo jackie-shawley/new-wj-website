@@ -111,30 +111,12 @@ return(
             <br /> */}
             <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>6 December</h4>
-                    <h5>10:00am - 12:00pm</h5>
-                    <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
-				</Col>
-				<Col xs={12} md={3}>
-					<h4>Arbutus Park Retirement Community</h4>
-                    <h4 style={{ fontFamily: "cursive", fontSize: '1.5rem', color: 'green' }}>Hometown Holidays</h4>
-                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
-				</Col>
-                <Col xs={12} md={3}>
-                    <p>207 Ottawa Street<br />Johnstown, PA</p>
-                    <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
-				</Col>
-			</Row>
-            <hr />
-            <Row className="justify-content-center" style={{ marginTop: 20 }}>
-				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>18 December</h4>
+					<h4>25 June</h4>
                     <h5>7:00pm - 10:00pm</h5>
                     <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
 				</Col>
 				<Col xs={12} md={3}>
 					<h4>The Fifth Local Eatery And Alehouse</h4>
-                    <h4 style={{ fontFamily: "cursive", fontSize: '1.5rem', color: 'green' }}>Ugly Holiday Sweater Party!</h4>
                     <hr className='hide-hr' style={{ marginTop: 10, marginBottom: 30}}></hr>
 				</Col>
                 <Col xs={12} md={3}>
@@ -150,9 +132,9 @@ return(
                 <p style={{ fontSize:100 }}>&#128542;</p>
                 </Col>
             </Row> */}            
-            {/* <Row className="justify-content-center" style={{ marginTop: 20 }}>
+            <Row className="justify-content-center" style={{ marginTop: 20 }}>
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
-					<h4>21 July</h4>
+					<h4>14 August</h4>
 					<h5>6:00pm</h5>
                     <h3 style={{ marginTop: 40 }}><a className="ticket-link" href="https://www.galleryongazebo.org/sip-savor-evenings-2023/" rel="noreferrer" target="_blank">Get Your Tickets</a></h3>
                     <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
@@ -169,7 +151,7 @@ return(
 				</Col>
 			</Row>
             <hr />
-            <br /> */}
+            <br />
             {/* <Row>
                 <Col>
                     <Button 
