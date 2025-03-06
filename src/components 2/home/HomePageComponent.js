@@ -136,7 +136,7 @@ return(
 				<Col xs={12} md={3} style={{ alignItems: 'right' }}>
 					<h4>14 August</h4>
 					<h5>6:00pm</h5>
-                    <h3 style={{ marginTop: 40 }}><a className="ticket-link" href="https://www.galleryongazebo.org/sip-savor-evenings-2023/" rel="noreferrer" target="_blank">Get Your Tickets</a></h3>
+                    {/* <h3 style={{ marginTop: 40 }}><a className="ticket-link" href="https://www.galleryongazebo.org/sip-savor-evenings-2023/" rel="noreferrer" target="_blank">Get Your Tickets</a></h3> */}
                     <hr className='hide-hr' style={{ marginTop: 30, marginBottom: 30}}></hr>
 				</Col>
 				<Col xs={12} md={3}>
